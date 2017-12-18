@@ -1,0 +1,50 @@
+/* Rules controling how the Dropdown collection of links looks */
+.drop-links {
+	background-color: rgba(0,153,153,0.6);
+	width: 150px;
+	box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.4);
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 60px;
+
+}
+
+/* Rules controling how the a links in the Dropdown colleciton look */
+.drop-links a {
+	color:white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Rules controlling the visibility of the Dropdown collection of link when user hovers over the Hover Button */
+.dropdown:hover .drop-links {
+	display: block;
+}
+
+/* Rules controlling how the individual links in the Dropdown collection look when the user hovers over them */
+.drop-links a:hover {
+	background-color: rgba(0, 128, 128, 0.6);
+}
+
+/* Rules controling the placement of the Hover Menu Button as a whole */
+.dropdown {
+	position: fixed;
+	display: block;
+	right: 3%;
+	z-index: 10;
+}
+
+/* Rules controling the look and placement of the Menu Bar Buttons as a whole */
+#menubar {
+	margin-top: 20px;
+
+
+}
+/* Rules controling the look and placement of the Menu button */
+.drop-btn{
+  cursor: pointer;
+
+}
